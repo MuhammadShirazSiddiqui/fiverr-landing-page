@@ -1,0 +1,74 @@
+.col-md-3{
+  display: inline-block;
+  margin-left:-4px;
+}
+.col-md-3 img{
+  width:100%;
+  height:auto;
+}
+body .carousel-indicators li{
+  background-color:red;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+  background-color:red;
+}
+body .no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+.carousel-item .col-md-3 img {
+    height: 200px;
+}
+
+
+.col-md.text-center.market-place img {
+    width: 30%;
+}
+
+.bg-banner h2, .bg-banner .try {
+    color: #fff;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    padding-top: 14px;
+}
+
+.footer .footer-bottom .footer-bottom-left p {
+    font-size: 14px;
+    color: #bdbdbd;
+    padding-top: 6px;
+}
+.footer-bottom {
+    border-top: 1px solid #eaeaea;
+}
+.guide-sec h5 {
+    font-size: 1.15rem;
+}
+.navbar-light.scrolled{
+    background: #fff;
+    box-shadow: 0 0 2px 0 gray;
+}
+.navbar.navbar-expand-lg.navbar-light.fixed-top.second-nav {
+    top: 70px;
+    height: 40px;
+    display: none;
+}
+.navbar.navbar-expand-lg.navbar-light.fixed-top.second-nav.scrolled {
+    display: block !important;
+}
+.second-nav #navbarSupportedContent {
+    margin-top: -2%;
+}
+@media screen and (max-width: 467px){
+    .footer ul li .mbl-drop {
+    display: none !important;
+}
+    .footer ul li:hover .mbl-drop{
+    display: block !important;
+}
+   
+}
